@@ -50,5 +50,5 @@ echo "<img src='/$instance/apps/vaultkey/img/vault-tb.png' class='vaultlink' /><
 ?>
 
   <li style="margin-bottom:1em;">Ihr Sicherheits-Token ist 10 Minuten gültig.</li>
-  <li><a href="<?php echo $_SERVER['PHP_SELF']; ?>" class="refreshbutton">Neuen Token erzeugen</a></li>
+  <li><a href="<?php echo $CONFIG['htaccess.RewriteBase']; ?>apps/vaultkey/" class="refreshbutton">Neuen Token erzeugen</a></li>
 </ul>
