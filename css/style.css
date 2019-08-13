@@ -1,0 +1,50 @@
+#app {
+	width: 100%;
+	/* border: 3px solid blue; */
+}
+
+#app-content {
+	margin: auto;
+	min-width: 20em;
+	max-width: 30em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#app-content-wrapper {
+	/* width: auto;
+	justify-content: center;
+	align-items: center; */
+	text-align: center; 
+}
+
+.vaultlink {
+	margin: 2em;
+}
+
+.vaultlink:hover {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.refreshbutton {
+	border: none;
+	display: inline-block;
+	outline: 0;
+	outline-width: 0px;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	background-color:#4176b9;
+	color:#fff;
+}
+
+.refreshbutton:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
