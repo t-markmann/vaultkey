@@ -1,4 +1,9 @@
 # Vaultkey
 Place this app in **nextcloud/apps/**
 
-Current status: developement and testing.
+Current status: development and testing.
+
+TODO:
+* Write complete documentation & README
+* String i18n
+* Better exception handling
